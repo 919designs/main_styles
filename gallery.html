@@ -1,0 +1,35 @@
+.site-header {
+  display: flex;
+  min-height: 59px;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  font-family: 'Urbanist', sans-serif;
+  line-height: 1;
+}
+
+.site-nav a {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .site-nav {
+    flex-wrap: wrap;
+  }
+}
