@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Home</title>
+ <link rel="stylesheet" href="./Assets/styles_main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Urbanist', sans-serif;
+      color: white;
+      background-color: #064257;
+    }
+
+    main {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: calc(100vh - 59px);
+      padding: 0 100px 120px;
+      box-sizing: border-box;
+    }
+
+    main h1,
+    main h2 {
+      margin: 0;
+      font-weight: bold;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    main h1 {
+      font-size: 36px;
+    }
+
+    main h2 {
+      font-size: 34px;
+    }
+
+    main p {
+      max-width: 600px;
+      margin: 12px 0 0;
+      font-size: 14px;
+      line-height: 1.8;
+      text-transform: none;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding-right: 24px;
+        padding-left: 24px;
+      }
+
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="./s919d_about.html">About</a>
+      <a href="./s919d_gallery.html">Gallery</a>
+      <a href="./s919d_services.html">Services</a>
+      <a href="./s919d_contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <div>
+      <h1>Your ideas, brought to life.</h1>
+      <h2>Dreams, delivered.</h2>
+      <p>Transforming clever concepts into visual reality. This is our selection of the best compositions combining typography, graphic elements, branding, web design, packaging, illustrations and page layout.</p>
+    </div>
+  </main>
+</body>
+</html>
