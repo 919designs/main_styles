@@ -1,0 +1,38 @@
+.site-header {
+  display: flex;
+  width: 100%;
+  min-height: 59px;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+  gap: 20px;
+  font-family: 'Urbanist', sans-serif;
+  line-height: 1;
+}
+
+.site-nav a {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .site-nav {
+    flex-wrap: wrap;
+  }
+}
